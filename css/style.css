@@ -157,6 +157,7 @@ img {
     url(../images/mainpageimages/hero-background.jpg);  
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .hero-container {
@@ -406,6 +407,8 @@ img {
     font-size: 26px;
     line-height: calc(31/26);
     color: var(--accent-color);
+    margin-bottom: 6px;
+    display: block;
 }
 
 .footer-logo:hover, .footer-logo:focus {
